@@ -8,7 +8,7 @@ Aby odpalić projekt należy wykonać poniższe kroki (Linux).
 
 1. Zapoznaj się z prezentacją (RAGdocs), w której omówiono zaimplementowaną architekturę RAG.  
    Z prezentacji dowiesz się również, na jakim etapie jest projekt tworzenia pipelinu:  
-   [RAGdocs](https://drive.google.com/drive/folders/1nkRFEg8dJ2en7azGCVNHuw0mf4fTymu?usp=sharing)
+   [RAGdocs](https://drive.google.com/drive/folders/1mkRFEg8djZen7azcsVCMNuwvDMf4FTym?usp=sharing)
    
    Ponadto pobierz stamtąd dane data_docs i wstaw do głównego pliku projektu.
 ---
