@@ -8,6 +8,7 @@ dependencies = [
     "accelerate>=1.11.0",
     "faiss-cpu>=1.13.0",
     "google-genai>=1.51.0",
+    "pymilvus>=2.6.4",
     "rank-bm25>=0.2.2",
     "sentence-transformers>=5.1.2",
     "torch>=2.9.1",
