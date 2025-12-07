@@ -208,3 +208,4 @@ __marimo__/
 rag_index/
 .venv/
 __pycache__/
+milvus_db/
