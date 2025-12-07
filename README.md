@@ -1,10 +1,10 @@
-# 🌟 RAG_pipeline
+#  RAG_pipeline
 
 Aby odpalić projekt należy wykonać poniższe kroki (Linux).
 
 ---
 
-## 📘 0. Wprowadzenie
+##  0. Wprowadzenie
 
 1. Zapoznaj się z prezentacją (RAGdocs), w której omówiono zaimplementowaną architekturę RAG.  
    Z prezentacji dowiesz się również, na jakim etapie jest projekt tworzenia pipelinu:  
@@ -14,7 +14,7 @@ Aby odpalić projekt należy wykonać poniższe kroki (Linux).
 
 ---
 
-## 🛠️ 1. Instalacja uv
+##  1. Instalacja uv
 
 1. Zainstalować `uv` (jeśli nie jest zainstalowane):  
    ```bash
@@ -30,7 +30,7 @@ Aby odpalić projekt należy wykonać poniższe kroki (Linux).
 
 ---
 
-## 📦 2. Pobranie i przygotowanie projektu
+##  2. Pobranie i przygotowanie projektu
 
 1. Pobierz repozytorium (git clone).
 2. Przejdź do katalogu projektu (tam, gdzie znajduje się plik `pyproject.toml`):  
@@ -48,7 +48,7 @@ Aby odpalić projekt należy wykonać poniższe kroki (Linux).
 
 ---
 
-## 🔑 3. Konfiguracja API
+##  3. Konfiguracja API
 
 1. Wygeneruj własny klucz API u dostawcy modelu (np. Gemini) – darmowa wersja.  
 
@@ -63,7 +63,7 @@ Aby odpalić projekt należy wykonać poniższe kroki (Linux).
 
 ---
 
-## 🗄️ 4. Milvus – lokalna baza wektorowa
+##  4. Milvus – lokalna baza wektorowa
 
 Do przechowywania wektorów używamy **Milvusa** uruchomionego w trybie standalone w kontenerze Dockera.
 
@@ -76,7 +76,7 @@ Sprawdź, czy Docker działa:
 
 ```bash
 docker --version
-docker compose version   # lub: docker-compose --version
+docker compose version   
 ```
 
 ### 4.2. Utworzenie katalogu na konfigurację Milvusa
@@ -122,7 +122,7 @@ Powinieneś zobaczyć kontenery o nazwach zbliżonych do:
 
 Domyślnie Milvus nasłuchuje na porcie **19530** (gRPC) i **9091** (HTTP).
 
-> ℹ️ Milvus musi działać w tle **przed uruchomieniem skryptu RAG**, inaczej aplikacja nie będzie miała dokąd zapisywać wektorów.
+> Milvus musi działać w tle **przed uruchomieniem skryptu RAG**, inaczej aplikacja nie będzie miała dokąd zapisywać wektorów.
 
 Aby zatrzymać Milvusa:
 
@@ -132,7 +132,7 @@ docker compose down
 
 ---
 
-## ▶️ 5. Uruchomienie
+##  5. Uruchomienie
 
 1. Upewnij się, że:
    - środowisko `.venv` jest aktywne,
@@ -150,7 +150,7 @@ docker compose down
 
 ---
 
-## 🧪 6. Testowanie – pytania do RAG
+##  6. Testowanie – pytania do RAG
 
 Możesz przetestować RAG na podstawie pytań:
 
